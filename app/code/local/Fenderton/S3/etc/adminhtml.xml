@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <fendertons3 translate="title" module="fendertons3">
+                                        <title>Fenderton Amazon S3 integration</title>
+                                        <sort_order>150</sort_order>
+                                    </fendertons3>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config> 
